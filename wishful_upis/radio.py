@@ -299,7 +299,7 @@ def get_running_radio_program():
 ''' Transmission of radio waveform (no MAC) '''
 
 
-def play_waveform(iface, freq, power_lvl, **kwargs):
+def play_waveform(iface, freq, power_lvl, kwargs):
     """Starts transmitting a radio waveform on signal generator
 
     Example:
